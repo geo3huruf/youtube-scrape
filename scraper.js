@@ -198,7 +198,7 @@ function parseVideoRenderer(renderer) {
  * @param {string} a - Previous value
  * @param {object} b - Current object
  * @returns Previous value concatenated with new object text
- */
+ */ 
 function comb(a, b) {
     return a + b.text;
 }
